@@ -1,9 +1,17 @@
+.reveal h2{
+	margin-bottom: 0.75em;
+}
+
 .reveal ol,
 .reveal ul {
-	font-size: 42pt;
+	font-size: 40pt;
 	line-height: 100%;
 }
 
 .reveal li {
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
+}
+
+.reveal p {
+	font-size: 40pt;
 }
