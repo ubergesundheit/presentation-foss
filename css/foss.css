@@ -1,0 +1,9 @@
+.reveal ol,
+.reveal ul {
+	font-size: 42pt;
+	line-height: 100%;
+}
+
+.reveal li {
+	margin-bottom: 1em;
+}
