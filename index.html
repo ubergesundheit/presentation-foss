@@ -43,11 +43,41 @@
 					"FOSS"
 					</blockquote>
 					<p>
-					<font style="font-size: 32px;">Presentation by Gerald Pape, g.pape@wwu.de bla</font>
+					<font style="font-size: 32px;">Presentation by Gerald Pape, g.pape@wwu.de</font>
 					</p>
 				</section>
 				<section>
-					Penis
+					<h1>Agenda</h1>
+					<ul>
+						<li>Free software as in "free…"</li>
+						<li>Open Source Software</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Free as in Free…</h2>
+					  <ol start="0">
+					  	<li>…to run the program for any purpose</li>
+							<li class="fragment fade-in">…to study how the program works and adapt it to your needs</li>
+							<li class="fragment fade-in">…to redistribute copies so you can help your neighbor</li>
+							<li class="fragment fade-in">…to improve the program, and release your improvements to the public, so that the whole community benefits.</li>
+					  </ol>
+    <aside class="notes">
+        Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+    </aside>					  
+				</section>
+
+				
+
+				<section>
+					<h1>References</h1>
+					http://www.gnu.org/philosophy/free-sw.html
+
+http://opensource.org/osd
+				</section>
+
+				<section>
+					<h1>Discussion</h1>
 				</section>
 
 			</div>
@@ -62,13 +92,16 @@
 			// Full list of configuration options available here:
 			// https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
-				controls: true,
+				width: 1024,
+				height: 768,
+				margin: 0.2,
+				controls: false,
 				progress: true,
 				history: true,
 				center: true,
-
-				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+				theme: 'night', // available themes are in /css/theme
+				transition: 'fade', // default/cube/page/concave/zoom/linear/fade/none
+				transitionSpeed: 'fast',
 
 				// Optional libraries used to extend on reveal.js
 				dependencies: [
@@ -76,7 +109,6 @@
 					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
 					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
 					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
 					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
