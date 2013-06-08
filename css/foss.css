@@ -8,8 +8,13 @@
 	line-height: 100%;
 }
 
+.reveal ul{
+  list-style: none;
+}
+
 .reveal li {
 	margin-bottom: 0.5em;
+  padding-left: 0.2em;
 }
 
 .reveal p {
