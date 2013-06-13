@@ -40,3 +40,8 @@
 .reveal .border{
 	#border-right: 2px solid red;
 }
+
+.reveal .no-border-img {
+	border: 0px;
+	#padding: 10px;
+}
