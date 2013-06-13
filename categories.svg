@@ -30,8 +30,8 @@
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="837"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -103,12 +103,6 @@
        height="548.6391"
        x="406.32922"
        y="244.11392" />
-    <path
-       style="fill:none;fill-opacity:1;stroke:#006180;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 430.9028,311.92372 c 14.1651,13.14779 -4.16489,173.35993 16.02275,233.92284 20.18764,60.56291 265.62829,43.78647 278.80987,66.57506 13.18159,22.7886 3.60799,137.11071 -9.69057,146.66894 C 702.74629,768.6488 193.06631,782.99258 99.759571,749.04224 86.503424,744.2189 89.842957,716.88387 88.017544,713.0632 86.192132,709.24253 81.959795,346.68367 85.437855,311.79382 88.915911,276.90397 416.7377,298.77593 430.9028,311.92372 z"
-       id="path4143"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="zzzzszzz" />
     <rect
        style="fill:#45b1da;fill-opacity:1;stroke:none"
        id="rect3109"
@@ -304,19 +298,19 @@
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-       x="287.67621"
-       y="760.57629"
+       x="437.91891"
+       y="739.47479"
        id="text4145"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4147"
-         x="287.67621"
-         y="760.57629">free download software</tspan></text>
+         x="437.91891"
+         y="739.47479">free download software</tspan></text>
     <path
        style="fill:none;stroke:#006180;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 430.9028,311.92372 c 14.1651,13.14779 -4.16489,173.35993 16.02275,233.92284 20.18764,60.56291 265.62829,43.78647 278.80987,66.57506 13.18159,22.7886 3.60799,137.11071 -9.69057,146.66894 C 702.74629,768.6488 193.06631,782.99258 99.759571,749.04224 86.503424,744.2189 89.842957,728.10967 88.017544,713.0632 86.192131,698.01673 81.959795,346.68367 85.437855,311.79382 88.915911,276.90397 416.7377,298.77593 430.9028,311.92372 z"
+       d="m 430.9028,311.92372 c 14.1651,13.14779 6.80789,103.30294 26.99553,163.86585 20.18764,60.56291 254.65551,113.84346 267.83709,136.63205 13.18159,22.7886 7.65908,129.90838 -8.00245,130.6318 -15.66153,0.72342 -571.82099,47.02068 -578.22776,-57.8442 -1.82541,-15.04647 -31.37955,-305.60721 -27.90149,-340.49706 3.47805,-34.88985 305.13398,-45.93623 319.29908,-32.78844 z"
        id="path4143-9"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="zzzzszzz" />
+       sodipodi:nodetypes="zzzzczz" />
   </g>
 </svg>
