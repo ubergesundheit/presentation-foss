@@ -25,12 +25,38 @@
       document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
     </script>
 
-    <style type="text/CSS">
+    <style type="text/css">
       body {
         background-image: url('logo.svg'), -webkit-gradient(linear, left top, left bottom, from(#5E7F2A), to(#0F547F));
         background-position: 96% 96%, 0% 0%;
         background-repeat: no-repeat;
         background-size: 12%, 100%;
+      }
+      .reveal section{
+        font-size: 26pt;
+      }
+      .reveal .svglogo{
+        border:0;background-color:transparent;box-shadow:none;
+      }
+
+      .reveal li {
+        list-style-type: none;
+        margin-bottom: 0.5em;
+        padding-left: 0.2em;
+      }
+
+      .reveal ul {
+        margin-top: 0.5em;
+      }
+
+      .reveal blockquote .source{
+        margin-top: 0.5em;
+        font-size: 17pt;
+        text-align: right;
+      }
+
+      .reveal sub{
+        font-size: 70%;
       }
     </style>
 
@@ -46,15 +72,102 @@
       <!-- Any section element inside of this container is displayed as a slide -->
       <div class="slides">
 
+        <!--
+        #### Template Projektvorstellungen ####
+
+        [x] Wie heißt das Projekt? Link ...
+
+        Wer hat das Projekt geleitet / beauftragt / durchgeführt?
+        [x] Wer hat an dem Projekt mitgewirkt? Wie groß war das Team?
+
+        [x] In welchem Zeitraum wurde das Projekt umgesetzt?
+
+        Worum geht es (Kurzbeschreibung / USP)? Welche Probleme sollen gelöst werden? Welcher Nutzen?
+
+        Wie wurde das Projekt durchgeführt? Welche Vorgehensweise wurde gewählt (Agil, Scrum, Kanban)? Wurde ein Projektmanagement-Tool verwendet?
+
+        Wie lief die Enwticklung ab?
+
+        Was für ein technischer Ansatz wurde gewählt? Welche Gems / Libs / Technologien wurden verwendet? Welches Framework kam zum Einsatz? Wurde eine spezielle Architektur gewählt?
+
+        Welche technologischen Herausforderungen / Ansätze sind hervorzuheben?
+
+        Wie wurde die Anwendung deployt (Dedizierter Server, Shared Hosting, Cloud-Dienste)? Gab es einen Deployment-Prozess (Staging, Production)? Welcher Anbieter wurde verwendet?
+
+        Gab es sonst noch Besonderheiten?
+
+        ... Screenshots, Screenshots, Screenshots ...
+
+        Ggf. weitere Kennzahlen zum Projekt / Zusätzliche Infos (Lines of Code, Anzahl Gems)
+
+        #### Template Ende ####
+      -->
+
         <section>
-          <img style="border:0;background-color:transparent;box-shadow:none;width:200%" src="logo.svg"</img>
+          <img style="width:200%" class="svglogo" src="logo.svg"></img>
           <p>
-            <font style="font-size: 28px;">citizen science project</font>
+            <font style="font-size: 28px;">citizen science projekt</font>
           </p>
         </section>
         <section>
-          enviroCar, yo
+          <h2>Citizen Science</h2>
+          <h3>und Participatory Sensing</h3>
+          
+          <blockquote><b>Citizen science</b><br /> is scientific research conducted, in whole or in part, by amateur or nonprofessional scientists, often by crowdsourcing.
+          <div class="source">(Wikipedia)</div></blockquote>
+          <blockquote><b>Participatory Sensing</b><br /> is the concept of communities (or other groups of people) contributing sensory information to form a body of knowledge.<div class="source">(Wikipedia)</div></blockquote>
         </section>
+        <section>
+          <h2>Was?</h2>
+          <blockquote style="position:absolute;bottom:20%;right:0%;width:50%;"><b>OBD-2:</b><br />Fahrzeugdiagnosesystem, welches Zugriff auf alle abgasbeeinflussende Systeme ermöglicht. Seit 2004 Pflicht für alle in der EU verkauften PKW. <div class="source">(Wikipedia)</div></blockquote>
+          <ul>
+            <li>"Wie viel CO<sub>2</sub> erzeuge ich durch meine Fahrten im Auto?"</li>
+            <li>Auslesen verschiedener Sensoren über OBD-2 Schnittstelle
+              <ul>
+                <li>CO<sub>2</sub></li>
+                <li>Geschwindigkeit</li>
+                <li>u/min</li>
+              </ul>
+            </li>
+            <li>Aufbau einer Community
+              <ul>
+                <li>Freunde</li>
+                <li>Gruppen</li>
+                <li>Vergleich</li>
+                <li>Informationsprodukte</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+        <h2>Rahmenbedingungen</h2>
+        <h3>des Projektes</h3>
+        <blockquote style="position:absolute;bottom:20%;right:0%;width:50%;">Within the study project we want to prototype a <b>Spatial Information Infrastructure</b>, which enables both citizens and scientists to derive environmental data from car-borne sensors. <div class="source">Source: ifgi.uni-muenster.de/ifgilogin/csa/?id=295</div></blockquote>
+          <ul>
+            <li>
+            <li>Linked Data</li>
+            <li>Challenge: 10000 € durch Croudfunding</li>
+            <li>50 aktive Citizen Scientists</li>
+            <li>Zeitraum: ~4 Monate</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Wer?</h2>
+          <ul>
+            <li>19 Studenten MSc. Geoinformatics</li>
+            <li>Vier Teams:<ul>
+              <li>App</li>
+              <li>Web</li>
+              <li>API</li>
+              <li>Marketing</li>
+            </li>
+            <div class="fragment roll-in"><li>Unterstützt durch:</li>
+            <li><img style="width:45%;" class="svglogo" src="52n-join-irc.svg"></img></li>
+            <li><img style="width:90%;" class="svglogo" src="ifgi.svg"></img></li></div>
+          </ul>
+        </section>        
 
       </div>
 
