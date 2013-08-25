@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Free and Open Source software</title>
+
+		<meta name="description" content="Free and Open Source software">
+		<meta name="author" content="Gerald Pape">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/night.css">
+		<link rel="stylesheet" href="css/foss.css">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section>
+					<h1>FREE AND OPEN SOURCE SOFTWARE</h1>
+						<blockquote>&#8220;FOSS&#8221;</blockquote>
+					<p><font style="font-size: 32px;">Presentation by Gerald Pape, g.pape [at] wwu.de</font></p>
+				</section>
+
+				<section>
+					<h2>Agenda</h2>
+					<ul>
+						<li>Nonfree or &#8220;proprietary&#8221; software</li>
+						<li>Free as in &#8220;free speech&#8221;</li>
+						<li>Four basic freedoms of free software</li>
+						<li>The Open Source Definition</li>
+						<li>Free and open source software</li>
+						<li>Categories of free and open source and nonfree software</li>
+						<li>Conclusion</li>
+						<li>Discussion</li>
+					</ul>
+				    <aside class="notes"><small>
+						<ul>
+							<li><strong>What is </strong>Nonfree or &#8220;proprietary&#8221; software</li>
+							<li><strong>Explanation of </strong>Free as in &#8220;free speech&#8221;</li>
+							<li><strong>The </strong>Four basic freedoms of free software</li>
+							<li>The Open Source Definition</li>
+							<li>Free and open source software<strong>as a term</strong></li>
+							<li><strong>Diagram of</strong>Categories of free and open source and nonfree software</li>
+							<li>Conclusion</li>
+							<li>Discussion</li>
+						</ul>
+				    </small></aside>					
+				</section>
+
+				<section>
+					<h2>Nonfree or &#8220;proprietary&#8221; software</h2>
+					<ul>
+						<li>is not <em>free</em></li>
+						<li class="fragment fade-in">restricts redistribution or modification</li>
+						<li class="fragment fade-in">source code unavailable</li>						
+						<li class="fragment fade-in">&#8220;controls&#8221; the user</li>
+					</ul>
+				    <aside class="notes"><small>
+						<ul>
+							<li>is not <em>free</em>=>Free as in freedom of speech. Detailed on my next slide</li>
+							<li>prohibits or restricts redistribution or modification=>The license or usage terms don't allow copying</li>
+							<li>source code often unavailable=>result of the point before. The developer does not want you to compile your own version</li>							
+							<li>&#8220;controls&#8221; the user=>not always the case, but the developer could because the source is unavaliable</li>
+						</ul>
+				    </small></aside>
+				</section>
+
+				<section>
+					<h2>Free as in &#8220;free speech&#8221;<br /><small>(not in &#8220;free beer&#8221;)</small></h2>
+					<ul>
+						<li class="fragment fade-in">&#8220;Free software&#8221; is matter of liberty, not price</li>
+						<li class="fragment fade-in">&#8220;Free&#8221; relates to freedom over the software.</li>
+						<li class="fragment fade-in">The software respects the user.</li>
+					</ul>
+				    <aside class="notes">
+				    	<small>
+							<ul>
+								<li>&#8220;Free software&#8221; is matter of liberty, not price=>Free software can be sold</li>
+								<li>&#8220;Free&#8221; relates to freedom over the software.=>You can do whatever you want with the software as long as the software stays free</li>
+								<li>The software respects the user.=>relating to the control over the software and not the other way around</li>
+							</ul>
+							</small>
+				    </aside>					  
+				</section>
+
+				<section>
+					<h2>Four basic freedoms:</h2>
+						<p>Free as in free…</p>
+					  <ol start="0">
+					  	<li class="fragment fade-in">…to run the software for any purpose</li>
+							<li class="fragment fade-in">…to study how the software works and adapt it to your needs</li>
+							<li class="fragment fade-in">…to redistribute copies of the software</li>
+							<li class="fragment fade-in">…to improve the software and release your improvements to the public</li>
+					  </ol>
+
+				    <aside class="notes"><small>
+				    	<ol start="0">
+					  	<li><strong>…to run</strong>  => no restriction how you run the software. you can run on any computer you like and for any purpose, anywhere, by anyone</li>
+						<li><strong>…to study</strong> => change the source code, and change how it runs</li>
+						<li><strong>…to redistribute</strong> => copy freely and give away the software</li>
+						<li><strong>…to improve</strong> => make changes to the source and give away the modified program and code</li>
+					  </ol>
+					  Freedom 1 and 3 imply that the source code of the software is freely avaliable. Obfuscated code is no real source code.
+				    </small>
+				    </aside>					  
+				</section>
+
+				<section>
+					<h2>The Open Source Definition</h2>
+					<ol>
+						<li>Free Redistribution</li>
+						<li class="fragment fade-in">Source Code</li>
+						<li class="fragment fade-in">Derived Works</li>
+						<li class="fragment fade-in">Integrity of The Author's Source Code</li>
+						<li class="fragment fade-in">No Discrimination Against Persons or Groups</li>
+					</ol>
+				    <aside class="notes"><small>
+				    	10 rules in comparison to the 4 rules of the Free software definition, big supporter is mozilla.
+				    <ol>
+							<li>Free Redistribution => the software can be sold but also given away without any charges. Also as part of other software</li>
+							<li>Source Code=>the source must be included and the license should allow distribution of the source code</li>
+							<li>Derived Works=>The license must allow modifications and the ability to distribute the changed code and binaries</li>
+							<li>Integrity of The Author's Source Code=>The author can restrict distribution of the source code if he allows patch files which modify the code at compilation</li>
+							<li>No Discrimination Against Persons or Groups=>the license souldn't restrict certain people from using the software</li>
+						</ol>
+				    </small>
+				    </aside>						
+				</section>
+				<section>
+					<h2>The Open Source Definition (contd.)</h2>
+					<ol start="6">
+						<li class="fragment fade-in">No Discrimination Against Fields of Endeavor</li>
+						<li class="fragment fade-in">Distribution of License</li>
+						<li class="fragment fade-in">License Must Not Be Specific to a Product</li>
+						<li class="fragment fade-in">License Must Not Restrict Other Software</li>
+						<li class="fragment fade-in">License Must Be Technology-Neutral</li>
+					</ol>
+					<aside class="notes"><small>
+						<ol start="6">
+						<li>No Discrimination Against Fields of Endeavor=>the license shouldn't restrict for what the software is used.</li>
+						<li>Distribution of License=>copies or modified versions must be distributed under the same conditions as the original</li>
+						<li>License Must Not Be Specific to a Product=>you are allowed to use code from a project and reuse only this portion in other software or release it as standalone software</li>
+						<li>License Must Not Restrict Other Software=>the license cannot restrict with what other software it is distributed.</li>
+						<li>License Must Be Technology-Neutral=>The license must allow the distributution of the software over every channel possible.</li>
+					</ol>
+					</small></aside>
+
+				</section>
+<!--
+				<section>
+					<h2>Free software vs. Open source software</h2>
+					<table style="">
+						<tr><th class="border">&nbsp;</th><th class="border">Free</th><th>Open source</th></tr>
+						<tr><td class="border"># of rules</td><td class="border">4</td><td>10</td></tr>
+						<tr><td class="border">buzzword</td><td class="border">free</td><td>open</td></tr>
+						<tr><td class="border">year</td><td class="border">1983</td><td>1998</td></tr>
+						<tr><td class="border">thought of<br/>the other</td><td class="border">1983</td><td>1998</td></tr>
+					</table>
+				</section> -->
+
+				<section>
+					<h2>Free and open source software</h2>
+						<p>Term to describe software that both is open source and respects its users.</p>
+						<p class="fragment fade-in">Can be used without bias for either side.</p>
+						<p class="fragment fade-in">Is sometimes also called free/libre/open-source software (FLOSS)<p>
+				</section>
+
+				<section>
+					<h2 style="margin-bottom:0.1em;">Categories of free and open source and nonfree software</h2>
+					<img class="no-border-img" src="categories.svg" height="650" width="780">
+					<p style="margin:0px;font-size:20pt;text-align:right;">Edited from http://gnu.org/philosophy/category.svg</p>
+					<aside class="notes">
+						<small>
+							<ul>
+								<li>Free software is software that fulfills the four freedoms of free software (use, study, copy, improve)</li>
+								<li>public domain with source: free, as long as its free</li>
+								<li>lax: software under license that allow almost anything</li>
+								<li>copylefted: free software that must when copied have then the same distribution terms as the original</li>
+								<li>GPL: As heard earlier, the software cannot be turned into nonfree software</li>
+								<li>open source software: restricted under the 10 rules defined by the open source initiative (free copy, readable source, allow derived works, authors integrity, not dicrimination against persons or use of the software, license stays the same, license applys also for small parts, no restriction of other software, technology neutrality)</li>
+								<li>public without source: no souce -> not free</li>
+								<li>shareware, is free to download, but not free, because the license is often not free</li>
+								<li>free download software: meaning just that software is avaliable without a cost or fee</li>
+							</ul>
+						</small>
+					</aside>
+				</section>
+
+				<section>
+					<h2>Conclusion</h2>
+					<p>Free software and open source software have very similar meanings.</p>
+					<p><br /></p>
+					<p>Open source focus only on technical aspects, free software more on ethical aspects.</p>
+					<p><br /></p>
+					<p>Groups have different views on how to communicate their concepts.</p>
+				</section>
+
+
+
+				<section>
+					<h1>Discussion</h1>
+					<aside class="notes"><small>
+						<ul>
+							<li>Is Freeware free software?</li>
+							<li></li>
+					</small></aside>
+				</section>
+
+				<section>
+					<h2>References</h2>
+					<ul>
+						<li>http://www.fsf.org/about/what-is-free-software</li>
+						<li>http://www.gnu.org/philosophy/free-sw.html</li>
+						<li>http://opensource.org/osd</li>
+						<li>http://opensource.org/faq#free-software</li>
+						<li>http://www.gnu.org/philosophy/categories.en.html</li>
+					</ul>
+				</section>
+
+				<section>
+					<h1>Thanks for your<br />attention</h2>
+				</section>	
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				width: 1024,
+				height: 768,
+				margin: 0.2,
+				controls: false,
+				progress: true,
+				history: true,
+				center: true,
+				//theme: 'night', // available themes are in /css/theme
+				transition: 'fade', // default/cube/page/concave/zoom/linear/fade/none
+				transitionSpeed: 'fast',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
